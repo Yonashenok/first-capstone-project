@@ -19,10 +19,16 @@
   </head>
   <body>
     <nav
-      class="container-fluid navbar nav-Overly bg-warning navbar-expand-lg position-fixed top-0 left-0"
+      class="container-fluid navbar nav-Overly bg-light navbar-expand-lg position-fixed top-0 left-0"
     >
       <div class="container navPad">
-        <a class="navbar-brand text text-white" href="#">Navbar</a>
+        <a class="navbar-brand text text-white" href="./home.html">
+          <img
+            class="img-fluid logo"
+            src="./assets/imgs/mamas-kitchen.png"
+            alt=""
+          />
+        </a>
         <div class="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -47,30 +53,33 @@
         >
           <div class="d-none d-sm-block d-md-block d-lg-block">
             <ul class="navbar-nav nav_content">
-              <li class="nav-item col">
+              <li class="nav-item me-3">
                 <a
-                  class="nav-link active text text-white"
+                  class="nav-link active text text-dark"
                   aria-current="page"
-                  href="#"
+                  href="./home.html"
                 >
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white" href="#">About</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark" href="./about.html">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white" href="#">Our Teachers</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark" href="#">Our Teachers</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white" href="#">Plans</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark" href="#">Plans</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white">Courses</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark">Courses</a>
               </li>
-              <li class="nav-item ms-2">
-                <button type="button" class="btn btn-primary rounded-5">
-                  Secondary
+              <li class="nav-item me-3 ms-2">
+                <button
+                  type="button"
+                  class="btn btn-outline-warning border border-5 border-danger px-5 text-danger fw-bold"
+                >
+                  Join us
                 </button>
               </li>
             </ul>
