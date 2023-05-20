@@ -1,0 +1,112 @@
+:root {
+  --font-1: 32px;
+  --font-2: 24px;
+  --font-3: 18px;
+  --font-4: 16px;
+  --font-5: 14px;
+}
+
+.nav_content {
+  font-size: var(--font-1);
+}
+
+.nav-Overly {
+  z-index: 2;
+}
+
+.headline {
+  height: 100vh;
+}
+
+.mainProgram {
+  height: 80vh;
+}
+
+.col_size {
+  height: 90vh;
+}
+
+.mainCol {
+  height: 10rem;
+}
+
+.navPad {
+  height: 4rem;
+}
+
+.card-title {
+  margin: 0 1rem;
+}
+
+.footer-section {
+  height: 20vh;
+}
+
+/* Styles for mobile devices */
+
+@media only screen and (max-width: 767px) {
+  .main-card {
+    width: 355px;
+    height: 82px;
+    margin-bottom: 12px;
+    font-size: var(--font-5);
+  }
+
+  .textBox {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.7034px;
+    line-height: 22px;
+    height: 82.059326171875px;
+    width: 191.76907348632812px;
+  }
+
+  .btn-style {
+    width: 300px;
+    height: 68px;
+    padding: 20px 50px;
+  }
+
+  .ourTechers {
+    width: 355px;
+    height: 106px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 17px;
+  }
+
+  /* .teacher-section{} */
+}
+
+/* Styles for tablet devices */
+
+@media only screen and (min-width: 768px) {
+  .main-card {
+    width: 16rem;
+    margin: 0.5rem;
+  }
+
+  .ourTechers {
+    width: 500px;
+    height: 177px;
+    margin-right: 1rem;
+  }
+}
+
+/* Styles for desktop devices */
+
+@media only screen and (min-width: 1024px) {
+  .main-card {
+    width: 16rem;
+    height: 18rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .teacher-section {
+    height: 100vh;
+  }
+}
