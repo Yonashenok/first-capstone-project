@@ -6,8 +6,18 @@
   --font-5: 14px;
 }
 
+.logo {
+  width: 130px;
+  height: 70px;
+}
+
 .nav_content {
-  font-size: var(--font-1);
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
 }
 
 .nav-Overly {
@@ -23,7 +33,7 @@
 }
 
 .col_size {
-  height: 90vh;
+  height: 70vh;
 }
 
 .mainCol {
@@ -40,6 +50,14 @@
 
 .footer-section {
   height: 20vh;
+}
+
+.about-section {
+  height: 100vh;
+}
+
+.about-bottom {
+  height: 100vh;
 }
 
 /* Styles for mobile devices */
@@ -76,6 +94,15 @@
     font-weight: 700;
     font-size: 9px;
     line-height: 17px;
+  }
+
+  .width_foo {
+    width: 100%;
+  }
+
+  .flex_col {
+    display: flex;
+    flex-direction: column;
   }
 
   /* .teacher-section{} */
