@@ -6,9 +6,29 @@
   --font-5: 14px;
 }
 
+.icon-box {
+  height: 85px;
+}
+
+.main-section {
+  background-color: #282b32;
+}
+
+.main-card {
+  background-color: #3b3e45;
+}
+
+.head-secondary {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2712px;
+  line-height: 25px;
+}
+
 .logo {
   width: 130px;
-  height: 70px;
+  height: 65px;
 }
 
 .nav_content {
@@ -20,12 +40,38 @@
   color: #000;
 }
 
-.nav-Overly {
-  z-index: 2;
+.head-container {
+  text-align: left;
 }
 
 .headline {
   height: 100vh;
+  background-image: linear-gradient(
+      360deg,
+      rgba(240, 233, 233, 0.3) 100%,
+      rgba(71, 71, 75, 0.3) 0%
+    ),
+    url('../../assets/imgs/brooke-lark-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.head-primary {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  background-image: url('../../assets/imgs/h1image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-Overly {
+  z-index: 2;
 }
 
 .mainProgram {
@@ -33,7 +79,8 @@
 }
 
 .col_size {
-  height: 70vh;
+  width: 100%;
+  height: 100%;
 }
 
 .mainCol {
@@ -63,9 +110,23 @@
 /* Styles for mobile devices */
 
 @media only screen and (max-width: 767px) {
+  .head-container p {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .head-primary {
+    width: 290px;
+    font-size: 30px;
+  }
+
   .main-card {
     width: 355px;
-    height: 82px;
+    height: 95px;
     margin-bottom: 12px;
     font-size: var(--font-5);
   }
@@ -111,9 +172,24 @@
 /* Styles for tablet devices */
 
 @media only screen and (min-width: 768px) {
+  .head-container p {
+    width: 75%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .head-primary {
+    width: 700px;
+    font-size: 62px;
+  }
+
   .main-card {
-    width: 16rem;
-    margin: 0.5rem;
+    padding: 5px;
+    width: 350px;
+    margin: 0.3rem;
   }
 
   .ourTechers {
@@ -126,6 +202,20 @@
 /* Styles for desktop devices */
 
 @media only screen and (min-width: 1024px) {
+  .head-container p {
+    max-width: 800px;
+    width: 30%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.4902px;
+    line-height: 36px;
+  }
+
+  .main-section {
+    height: 100vh;
+  }
+
   .main-card {
     width: 16rem;
     height: 18rem;
