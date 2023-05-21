@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
     <link rel="stylesheet" href="src/style/style.css" />
     <title>Document</title>
   </head>
@@ -37,7 +41,7 @@
             height="24px"
             weight="24px"
             stroke-width="1.5"
-            stroke="#fff"
+            stroke="#000"
             class="w-6 h-6 d-block d-lg-none"
           >
             <path
@@ -88,115 +92,190 @@
       </div>
     </nav>
     <!--Todo headline section -->
-    <section class="container-fluid mt-5 pt-5 headline bg-dark">
+    <section class="container-fluid mt-5 pt-5 headline">
       <div class="container text-center mt-lg-5">
-        <div
-          class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 col_size"
-        >
-          <div class="col col-md col-sm text text-bg-light container-fluid">
-            <h1>Skip The Diet, Just Eat Healthy</h1>
-          </div>
-          <div class="col col-md col-sm text text-bg-danger container-fluid">
-            <h1>Skip The Diet, Just Eat Healthy</h1>
+        <div class="col_size">
+          <div class="pt-5 p-3 text container-fluid head-container">
+            <h1 class="head-primary">
+              MAMA'S KITCHEN
+              <br />
+              ONLINE COOKING SCHOOL
+            </h1>
+            <p class="text mt-5 w-auto">
+              Bring the most delicious food to your home. Mama's Kitchen gives
+              an incredible opportunity to learn various cooking techniques or
+              regional cooking styles from a professional chef. Give you Access
+              to an ever-growing library of classes by the world's best chefs.
+            </p>
+            <button
+              type="button"
+              class="btn mt-5 btn-outline-warning border border-5 border-danger px-5 text-danger fw-bold"
+            >
+              Join us
+            </button>
           </div>
         </div>
       </div>
     </section>
     <!--Todo main section section -->
     <section
-      class="container-fluid vh-100 pt-lg-5 bg-secondary d-flex justify-content-center align-items-center"
+      class="container-fluid pt-lg-5 main-section d-flex justify-content-center align-items-center"
     >
       <div
         class="container-fluid d-flex flex-column justify-content-center align-items-center mx-5 p-2"
       >
         <div>
-          <h1 class="text-center w-100 mb-5">hello world</h1>
+          <h1 class="text-center text-light w-100 mb-3">Courses</h1>
         </div>
         <div class="card-group">
           <div
             class="row row-cols-xl-auto row-cols-lg-1 row-cols-md-3 row-cols-sm-1 row-cols-1 justify-content-center"
           >
-            <div class="card main-card">
-              <div class="card-body">
-                <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
-                  <h5 class="card-title mb-3">Card title</h5>
+            <div class="card main-card p-lg-2">
+              <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
+                <div
+                  class="icon-box d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/imgs/cooking.png" alt="" />
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
+                >
+                  <h5 class="card-title text-danger text-center head-secondary">
+                    Recipe Lessons
+                  </h5>
+                  <div class="textBox">
+                    <p
+                      class="card-text text-light text-sm-start text-lg-center"
+                    >
+                      This is a wider card with supporting text below as a Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card main-card p-lg-2">
+              <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
+                <div
+                  class="icon-box d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/imgs/increasing-level.png" alt="" />
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
+                >
+                  <h5 class="card-title text-danger text-center head-secondary">
+                    Level of Difficulty
+                  </h5>
+                  <div class="textBox">
+                    <p
+                      class="card-text text-light text-sm-start text-lg-center"
+                    >
+                      This is a wider card with supporting text below as a Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card main-card p-lg-2">
+              <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
+                <div
+                  class="icon-box d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/imgs/dish.png" alt="" />
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
+                >
+                  <h5 class="card-title text-danger text-center head-secondary">
+                    Recipe Type
+                  </h5>
+                  <div class="textBox">
+                    <p
+                      class="card-text text-light text-sm-start text-lg-center"
+                    >
+                      This is a wider card with supporting text below as a Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card main-card p-lg-2">
+              <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
+                <div
+                  class="icon-box d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/imgs/chef.png" alt="" />
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
+                >
+                  <h5 class="card-title text-danger text-center head-secondary">
+                    Technique Lessons
+                  </h5>
+                  <div class="textBox">
+                    <p
+                      class="card-text text-light text-sm-start text-lg-center"
+                    >
+                      This is a wider card with supporting text below as a Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card main-card p-lg-2">
+              <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
+                <div
+                  class="icon-box d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/imgs/diet.png" alt="" />
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
+                >
+                  <h5 class="card-title text-danger text-center head-secondary">
+                    Main Ingredient
+                  </h5>
+                  <div class="textBox">
+                    <p
+                      class="card-text text-light text-sm-start text-lg-center"
+                    >
+                      This is a wider card with supporting text below as a Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card main-card p-lg-2">
+              <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
+                <div
+                  class="icon-box d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/imgs/online-video.png" alt="" />
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
+                >
+                  <h5 class="card-title text-danger text-center head-secondary">
+                    Videos
+                  </h5>
+                  <div class="textBox">
+                    <p
+                      class="card-text text-light text-sm-start text-lg-center"
+                    >
+                      This is a wider card with supporting text below as a Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                  />
-                  <div class="textBox">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card main-card">
-              <div class="card-body">
-                <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
-                  <h5 class="card-title">Card title</h5>
-                  <div class="textBox">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card main-card">
-              <div class="card-body">
-                <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
-                  <h5 class="card-title">Card title</h5>
-                  <div class="textBox">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card main-card">
-              <div class="card-body">
-                <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
-                  <h5 class="card-title">Card title</h5>
-                  <div class="textBox">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card main-card">
-              <div class="card-body">
-                <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
-                  <h5 class="card-title">Card title</h5>
-                  <div class="textBox">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card main-card">
-              <div class="card-body">
-                <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
-                  <div class="cardImage"></div>
-                  <h5 class="card-title">Card title</h5>
-                  <div class="textBox">
-                    <p class="">
-                      This is a wider card with supporting text below as a Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div
               class="d-flex mt-2 justify-content-center align-items-center d-lg-none d-md-none"
             >
