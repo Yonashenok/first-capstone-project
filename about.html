@@ -19,10 +19,16 @@
   </head>
   <body>
     <nav
-      class="container-fluid navbar nav-Overly bg-warning navbar-expand-lg position-fixed top-0 left-0"
+      class="container-fluid navbar nav-Overly bg-light navbar-expand-lg position-fixed top-0 left-0"
     >
       <div class="container navPad">
-        <a class="navbar-brand text text-white" href="./home.html">Navbar</a>
+        <a class="navbar-brand text text-white" href="./home.html">
+          <img
+            class="img-fluid logo"
+            src="./assets/imgs/mamas-kitchen.png"
+            alt=""
+          />
+        </a>
         <div class="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +37,7 @@
             height="24px"
             weight="24px"
             stroke-width="1.5"
-            stroke="#fff"
+            stroke="#000"
             class="w-6 h-6 d-block d-lg-none"
           >
             <path
@@ -47,32 +53,33 @@
         >
           <div class="d-none d-sm-block d-md-block d-lg-block">
             <ul class="navbar-nav nav_content">
-              <li class="nav-item col">
+              <li class="nav-item me-3">
                 <a
-                  class="nav-link active text text-white"
+                  class="nav-link active text text-dark"
                   aria-current="page"
                   href="./home.html"
                 >
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white" href="./about.html">
-                  About
-                </a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark" href="./about.html">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white" href="#">Our Teachers</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark" href="#">Our Teachers</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white" href="#">Plans</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark" href="#">Plans</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text text-white">Courses</a>
+              <li class="nav-item me-3">
+                <a class="nav-link text text-dark">Courses</a>
               </li>
-              <li class="nav-item ms-2">
-                <button type="button" class="btn btn-primary rounded-5">
-                  Secondary
+              <li class="nav-item me-3 ms-2">
+                <button
+                  type="button"
+                  class="btn btn-outline-warning border border-5 border-danger px-5 text-danger fw-bold"
+                >
+                  Join us
                 </button>
               </li>
             </ul>
@@ -80,90 +87,262 @@
         </div>
       </div>
     </nav>
-    <section class="container-fluid mt-5 pt-5 headline bg-dark">
-      <div
-        class="container text-start text-sm-center text-md-center text-lg-center mt-lg-5"
-      >
-        <div
-          class="row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 col_size align-content-center"
-        >
-          <div class="col col-md col-sm text text-bg-light container-fluid">
-            <h1>Skip The Diet, Just Eat Healthy</h1>
-          </div>
-          <div class="col col-md col-sm text text-bg-danger container-fluid">
-            <p>
-              Skip The Diet, Just Eat Healthy Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Quo, corrupti. Maxime eligendi vero
-              rem error laudantium molestias aut cupiditate cumque architecto
-              officia esse obcaecati quis, consequatur fugiat, id itaque
-              facilis! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="col col-md col-sm text text-bg-info container-fluid">
-            <p>
-              Skip The Diet, Just Eat Healthy you can add the thing you want
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container-fluid mt-5 pt-5 about-section bg-light">
-      <div
-        class="container text-start text-sm-center text-md-center text-lg-center mt-lg-5"
-      >
-        <div
-          class="row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 col_size"
-        >
-          <div class="col col-md col-sm text text-bg-light container-fluid">
-            <h1>Skip The Diet, Just Eat Healthy</h1>
-          </div>
-          <div class="col col-md col-sm text text-bg-danger container-fluid">
-            <p>
-              Skip The Diet, Just Eat Healthy Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Quo, corrupti. Maxime eligendi vero
-              rem error laudantium molestias aut cupiditate cumque architecto
-              officia esse obcaecati quis, consequatur fugiat, id itaque
-              facilis! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="col col-md col-sm text text-bg-info container-fluid">
-            <p>
-              Skip The Diet, Just Eat Healthy you can add the thing you want
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container-fluid mt-5 pt-5 about-bottom bg-warning">
-      <div
-        class="container text-start text-sm-center text-md-center text-lg-center mt-lg-5"
-      >
-        <div
-          class="row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 col_size justify-content-center"
-        >
-          <div class="col col-md col-sm text text-bg-light container-fluid">
-            <h1>Skip The Diet, Just Eat Healthy</h1>
-          </div>
+    <section class="container-fluid mt-5 pt-5 headline-about">
+      <div class="container text-center mt-lg-5">
+        <div class="col_size container">
           <div
-            class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 bg-dark flex_col"
+            class="pt-5 p-3 text container head-container d-flex flex-column justify-content-center align-items-center"
           >
-            <div class="col-6 text text-bg-danger width_foo">
-              <p>
-                Skip The Diet, Just Eat Healthy Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Quo, corrupti. Maxime eligendi
-                vero tetur adipisicing elit.
-              </p>
-            </div>
-            <div class="col-6 text text-bg-info width_foo">
-              <p>
-                Skip The Diet, Just Eat Healthy you can add the thing you want
+            <h1 class="head-primary text-center">
+              MAMA'S KITCHEN ONLINE COOKING SCHOOL
+            </h1>
+            <p class="text text-center text-dark mt-5 w-auto">
+              Recent years with the rise of technology and the internet, it has
+              become easier than ever to learn new skills and hobbies from the
+              comfort of your own home. Mama's Kitchen gives a great option for
+              anyone looking to improve their cooking skills or learn something
+              new in the kitchen. We offer flexibility, affordability, and a
+              wide range of options, making us a convenient and accessible way
+              to explore the world of cooking from a professional chef. Giving
+              you Access to an ever-growing library of classes by the world's
+              best chefs.
+            </p>
+            <div class="emailUs">
+              <p class="text text-center mt-5 w-auto">
+                Please contact us per Email for any further questions about
+                Mamas-kitchen.
+                <a class="text text-secondary" href="#">
+                  mamasKitchen@gmail.com
+                </a>
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class=""></section>
+    <section class="container-fluid mt-5 pt-5">
+      <div class="container text-center mt-lg-5">
+        <div class="col_size container">
+          <div
+            class="pt-5 p-3 text container head-container d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2 class="text-center fs-1">
+              Mama's kitchen Online Cooking School Logo
+            </h2>
+            <p class="text text-center text-dark mt-5 w-auto">
+              The logo of Mama's kitchen was created by the owner of the website
+              from logo.com free logo making website.
+            </p>
+            <div class="">
+              <img
+                class="img-fluid logo-about mb-1"
+                src="./assets/imgs/mamas-kitchen.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid mt-5 pt-5 feed-back">
+      <h2 class="text-center mb-5">What students say about us</h2>
+      <div class="container carousel-section row mx-auto">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade col">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block w-100 row carousel-about r">
+                <p
+                  class="text-center text-dark col fw-semibold carousel-txt w-auto"
+                >
+                  "This makes for an excellent gift for the foodie in your life!
+                  Besides teaching you how to cook restaurant dishes, Mama's
+                  kitchen has interesting and professionally created videos that
+                  give you a personal look into the personalities of the chefs
+                  and the philosophies behind their culinary art."
+                </p>
+                <div
+                  class="col carousel-img container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    class="rounded-5 img-fluid carousel-img-cont"
+                    src="./assets/imgs/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg"
+                    alt=""
+                  />
+                  <p class="ms-3 text-danger">Michael B.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-block w-100 row carousel-about">
+                <p
+                  class="text-center text-dark col fw-semibold carousel-txt w-auto"
+                >
+                  "Mama's kitchen is an amazing app with loads of interesting
+                  stories about chefs from around the world. You get to see
+                  "why" the chefs cook the way they do, "how" they cook and what
+                  joy they get from cooking. The quality of the videos is simply
+                  amazing! My wife and I love to have a glass of wine and watch
+                  a few videos each week!"
+                </p>
+                <div
+                  class="col carousel-img container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    class="rounded-5 img-fluid carousel-img-cont"
+                    src="./assets/imgs//kelly-sikkema-JN0SUcTOig0-unsplash.jpg"
+                    alt=""
+                  />
+                  <p class="ms-3 text-danger">Vanessa L.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-block w-100 row carousel-about">
+                <p
+                  class="text-center text-dark fw-semibold col carousel-txt w-auto"
+                >
+                  "I really enjoy the way that this site is set up. The
+                  introductory biography is excellent and gives you the context
+                  to understand the chefs' personalities and what drives them.
+                  The classes are wonderful and techniques are explained well.
+                  This is not a quickie family dinner kind of site. It is for
+                  the explorer of flavor and joy of learning."
+                </p>
+                <div
+                  class="col carousel-img container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    class="rounded-5 img-fluid carousel-img-cont"
+                    src="./assets/imgs/michael-austin-jgSAuqMmJUE-unsplash.jpg"
+                    alt=""
+                  />
+                  <p class="ms-3 text-danger">Katherine H.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid footer-section bg-dark">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <h2 class="text-center text-light pt-3">Partners</h2>
+        <div class="footer-line border-bottom border-5 border-danger"></div>
+      </div>
+      <div class="container row mx-auto py-3 align-items-center">
+        <div class="col">
+          <img class="img-fluid" src="./assets/imgs/mcdonalds.png" alt="" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="./assets/imgs/fries.png" alt="" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="./assets/imgs/nestle.png" alt="" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="./assets/imgs/unilever.png" alt="" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="./assets/imgs/cracker.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid last-section">
+      <div
+        class="container mx-auto my-5 row row-cols-xl-auto row-cols-lg-1 row-cols-md-3 row-cols-sm-1 row-cols-1 justify-content-center"
+      >
+        <div class="col me-4">
+          <div class="logo-footer mb-3">
+            <img
+              class="img-fluid"
+              src="./assets/imgs/mamas-kitchen.png"
+              alt=""
+            />
+          </div>
+          <div><p>Learn from the World’s Best Chefs.</p></div>
+        </div>
+        <div class="col row me-4 text text-dark">
+          <div class="col">
+            <h6 class="w-100">Get Started</h6>
+            <div><a class="text text-dark" href="">Chefs & Classes</a></div>
+            <div><a class="text text-dark" href="">Plans</a></div>
+            <div><a class="text text-dark" href="">Articles</a></div>
+            <div><a class="text text-dark" href="">Business</a></div>
+            <div><a class="text text-dark" href="">Affiliates</a></div>
+          </div>
+          <div class="col">
+            <h6>Support</h6>
+            <div><a class="text text-dark" href="">FAQ</a></div>
+            <div><a class="text text-dark" href="">Help center</a></div>
+          </div>
+          <div class="col">
+            <h6>About</h6>
+            <div><a class="text text-dark" href="">Privacy</a></div>
+            <div><a class="text text-dark" href="">Terms</a></div>
+          </div>
+        </div>
+        <div class="col row g-1 mt-2">
+          <div class="col">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0v24h24v-24h-24zm16 7h-1.923c-.616 0-1.077.252-1.077.889v1.111h3l-.239 3h-2.761v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"
+              />
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 6.615v1.45c0 .34-.275.616-.616.616h-1.449c-.341 0-.615-.276-.615-.616v-1.45c0-.34.274-.615.615-.615h1.449c.341 0 .616.275.616.615zm-1.131 4.699c.033.225.054.453.054.686 0 2.72-2.204 4.923-4.922 4.923s-4.923-2.204-4.923-4.923c0-.233.021-.461.054-.686.031-.221.075-.437.134-.647h-1.266v6.719c0 .339.275.614.616.614h10.769c.34 0 .615-.275.615-.615v-6.719h-1.265c.058.211.102.427.134.648zm-4.869 3.763c1.699 0 3.078-1.378 3.078-3.077s-1.379-3.077-3.078-3.077-3.077 1.377-3.077 3.077 1.378 3.077 3.077 3.077zm12-15.077v24h-24v-24h24zm-4 5.846c0-1.019-.826-1.846-1.846-1.846h-12.308c-1.019 0-1.846.827-1.846 1.846v12.307c0 1.02.827 1.847 1.846 1.847h12.309c1.019 0 1.845-.827 1.845-1.847v-12.307z"
+              />
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 9.333l5.333 2.662-5.333 2.672v-5.334zm14-9.333v24h-24v-24h24zm-4 12c-.02-4.123-.323-5.7-2.923-5.877-2.403-.164-7.754-.163-10.153 0-2.598.177-2.904 1.747-2.924 5.877.02 4.123.323 5.7 2.923 5.877 2.399.163 7.75.164 10.153 0 2.598-.177 2.904-1.747 2.924-5.877z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
