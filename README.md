@@ -151,7 +151,7 @@ To run tests, run the following command:
 You can deploy this project using:
 
 ```sh
-  live-serve
+ npm run dev
 ```
 
 <!-- AUTHORS -->
