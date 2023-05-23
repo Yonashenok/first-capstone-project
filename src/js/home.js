@@ -30,7 +30,7 @@ const courseData = [
       'Learn how to cook, regardless of your skill level or experience.',
   },
   {
-    img: './assets/imgs/cooking.png',
+    img: './assets/imgs/stir-fry.png',
     title: 'Recipe Lessons',
     detailed:
       'Are you interested in learning how to cook a specific cuisine, learn over 250 recipe.',
@@ -89,9 +89,7 @@ const courses = document.querySelector('.courses');
 const renderFeature = () => {
   teacherData.forEach((item, i) => {
     const html = `
-          <div class="card shadow-lg ${
-  i > 1 ? 'hidden' : ''
-}  border-danger mb-2 ourTechers ">
+          <div class="card shadow ${i > 1 ? 'hidden' : ''}   mb-2 ourTechers ">
                       <div class="d-flex flex-row g-0">
                         <div
                           class="col-md-4 col-sm-2 image-cont p-md-2  border-danger"
@@ -105,7 +103,7 @@ const renderFeature = () => {
                         <div class="col-md-8 g-0">
                           <div class="card-body">
                             <h5 class="card-title">${item.teacherName}</h5>
-                            <p class="my-1 main-color">
+                            <p class="my-1  main-color">
                             ${item.title}
                             </p>
                             <p class="card-text">
@@ -142,7 +140,7 @@ const renderCourse = () => {
         <div
           class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
         >
-          <h5 class="card-title main-color text-center head-secondary">
+          <h5 class="card-title main-color fs-5 mb-lg-3 text-center head-secondary">
            ${item.title}
           </h5>
           <div class="textBox">
