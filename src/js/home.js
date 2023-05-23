@@ -90,8 +90,8 @@ const renderFeature = () => {
   teacherData.forEach((item, i) => {
     const html = `
           <div class="card shadow-lg ${
-            i > 1 ? 'hidden' : ''
-          }  border-danger mb-2 ourTechers ">
+  i > 1 ? 'hidden' : ''
+}  border-danger mb-2 ourTechers ">
                       <div class="d-flex flex-row g-0">
                         <div
                           class="col-md-4 col-sm-2 image-cont p-md-2  border-danger"
