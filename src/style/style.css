@@ -83,7 +83,8 @@ body {
 
 .headline-about {
   height: 100vh;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       360deg,
       rgba(252, 252, 252, 0.8) 0%,
       rgba(203, 203, 207, 0.8) 100%
@@ -100,7 +101,8 @@ body {
 
 .headline {
   height: 100vh;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       360deg,
       rgba(240, 233, 233, 0.3) 100%,
       rgba(71, 71, 75, 0.3) 0%
