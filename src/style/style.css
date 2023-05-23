@@ -1,9 +1,17 @@
-:root {
-  --font-1: 32px;
-  --font-2: 24px;
-  --font-3: 18px;
-  --font-4: 16px;
-  --font-5: 14px;
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-color {
+  color: #ff4f38;
+}
+
+.navBtn {
+  border: 4px solid#ff4f38;
+}
+
+.bg-main {
+  background-color: #ff4f38;
 }
 
 .hover-effect:hover {
@@ -101,7 +109,7 @@
 }
 
 .nav-Overly {
-  z-index: 2;
+  z-index: 4;
 }
 
 .mainProgram {
@@ -144,6 +152,26 @@
 /* Styles for mobile devices */
 
 @media only screen and (max-width: 767px) {
+  .nav-menu {
+    font-size: 18px;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 9.5%;
+    left: 0;
+    z-index: 2;
+  }
+
+  .cross {
+    position: absolute;
+    top: 30px;
+    right: 11px;
+  }
+
   .hidden {
     display: none;
   }
@@ -235,13 +263,41 @@
     width: 140px;
     height: 90px;
   }
-
-  /* .teacher-section{} */
 }
 
 /* Styles for tablet devices */
 
 @media only screen and (min-width: 768px) {
+  .cross {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  .hemberger {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  .hidden-m {
+    display: none;
+  }
+
+  .nav-menu {
+    font-size: 18px;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 2;
+  }
+
   .head-container p {
     width: 75%;
     font-family: 'Lato', sans-serif;
@@ -315,6 +371,10 @@
 /* Styles for desktop devices */
 
 @media only screen and (min-width: 1024px) {
+  .hidden-lg {
+    display: none;
+  }
+
   .head-container p {
     max-width: 800px;
     width: 30%;
@@ -323,6 +383,11 @@
     font-weight: 400;
     font-size: 25.4902px;
     line-height: 36px;
+  }
+
+  .head-primary {
+    width: 700px;
+    font-size: 72px;
   }
 
   .main-section {
