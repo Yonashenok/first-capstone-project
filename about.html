@@ -15,13 +15,11 @@
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
     <link rel="stylesheet" href="src/style/style.css" />
-    <script defer src="./App.js"></script>
+    <script defer src="./src/js/App.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <nav
-      class="container-fluid navbar nav-Overly bg-light navbar-expand-lg position-fixed top-0 left-0"
-    >
+    <nav class="container-fluid navbar nav-Overly bg-light navbar-expand-lg">
       <div class="container navPad">
         <a class="navbar-brand text text-white" href="./home.html">
           <img
@@ -30,23 +28,38 @@
             alt=""
           />
         </a>
-        <div class="">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            height="24px"
-            weight="24px"
-            stroke-width="1.5"
-            stroke="#000"
-            class="w-6 h-6 d-block d-lg-none"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
-            />
-          </svg>
+        <div class="mobile-menu">
+          <div class="cross hidden hidden-lg">
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"
+              />
+            </svg>
+          </div>
+          <div class="hemberger hidden-m">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              height="24px"
+              weight="24px"
+              stroke-width="1.5"
+              stroke="#000"
+              class="w-6 h-6 d-block d-lg-none"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </div>
         </div>
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -56,7 +69,7 @@
             <ul class="navbar-nav nav_content">
               <li class="nav-item me-3">
                 <a
-                  class="nav-link active text text-dark"
+                  class="nav-link fw-semibold text hover-effect"
                   aria-current="page"
                   href="./home.html"
                 >
@@ -64,21 +77,20 @@
                 </a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text text-dark" href="./about.html">About</a>
+                <a class="nav-link text hover-effect" href="./about.html">
+                  About
+                </a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text text-dark" href="#">Our Teachers</a>
+                <a class="nav-link text hover-effect" href="#">Our Teachers</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text text-dark" href="#">Plans</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text text-dark">Courses</a>
+                <a class="nav-link text hover-effect" href="#">Courses</a>
               </li>
               <li class="nav-item me-3 ms-2">
                 <button
                   type="button"
-                  class="btn btn-outline-warning border border-5 border-danger px-5 text-danger fw-bold"
+                  class="btn btn-outline-danger border border-5 border-danger px-5 fw-bold"
                 >
                   Join us
                 </button>
@@ -88,7 +100,45 @@
         </div>
       </div>
     </nav>
-    <section class="container-fluid mt-5 pt-5 headline-about">
+    <div class="nav-menu hidden hidden-m hidden-lg pt-5 bg-light">
+      <ul class="navbar-nav nav_content">
+        <li class="nav-item me-3">
+          <a
+            class="nav-link fw-semibold fs-1 text hover-effect"
+            aria-current="page"
+            href="./home.html"
+          >
+            Home
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link text fs-2 mb-1 hover-effect" href="./about.html">
+            About
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link text fs-2 mb-1 hover-effect" href="#">
+            Our Teachers
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link text fs-2 mb-1 hover-effect" href="#">Courses</a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3 mt-5 ms-2">
+          <button
+            type="button"
+            class="btn btn-outline-danger border border-5 border-danger px-5 fw-bold"
+          >
+            Join us
+          </button>
+        </li>
+      </ul>
+    </div>
+    <section class="container-fluid mt-2 pt-5 headline-about">
       <div class="container text-center mt-lg-5">
         <div class="col_size container">
           <div
