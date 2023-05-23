@@ -21,15 +21,15 @@
   <body>
     <nav class="container-fluid navbar nav-Overly bg-light navbar-expand-lg">
       <div class="container navPad">
-        <a class="navbar-brand text text-white" href="./home.html">
+        <a class="navbar-brand text text-white hidden" href="./home.html">
           <img
             class="img-fluid logo"
             src="./assets/imgs/mamas-kitchen.png"
-            alt=""
+            alt=" mamas-kitchen logo "
           />
         </a>
         <div class="mobile-menu">
-          <div class="cross hidden hidden-lg">
+          <div class="cross hidden hidden-lg d-md-none">
             <svg
               width="24"
               height="24"
@@ -42,7 +42,7 @@
               />
             </svg>
           </div>
-          <div class="hemberger hidden-m">
+          <div class="hemberger">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -67,7 +67,7 @@
         >
           <div class="d-none d-sm-block d-md-block d-lg-block">
             <ul class="navbar-nav nav_content">
-              <li class="nav-item me-3">
+              <li class="nav-item me-5">
                 <a
                   class="nav-link fw-semibold text hover-effect"
                   aria-current="page"
@@ -76,21 +76,25 @@
                   Home
                 </a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-5">
                 <a class="nav-link text hover-effect" href="./about.html">
                   About
                 </a>
               </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text hover-effect" href="#">Our Teachers</a>
+              <li class="nav-item me-5">
+                <a class="nav-link text hover-effect scroll" href="#Teachers">
+                  Our Teachers
+                </a>
               </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text hover-effect" href="#">Courses</a>
+              <li class="nav-item me-5">
+                <a class="nav-link text hover-effect scroll" href="#Courses">
+                  Courses
+                </a>
               </li>
-              <li class="nav-item me-3 ms-2">
+              <li class="nav-item me-5 ms-2">
                 <button
                   type="button"
-                  class="btn btn-outline-danger border border-5 border-danger px-5 fw-bold"
+                  class="navBtn main-color px-5 py-3 fw-bold"
                 >
                   Join us
                 </button>
@@ -100,7 +104,7 @@
         </div>
       </div>
     </nav>
-    <div class="nav-menu hidden hidden-m hidden-lg pt-5 bg-light">
+    <div class="nav-menu hidden hidden-m hidden-lg d-md-none pt-5 bg-light">
       <ul class="navbar-nav nav_content">
         <li class="nav-item me-3">
           <a
@@ -138,26 +142,30 @@
         </li>
       </ul>
     </div>
-    <section class="container-fluid mt-2 pt-5 headline-about">
+    <section class="container-fluid mt-2 pt-3 headline-about">
       <div class="container text-center mt-lg-5">
         <div class="col_size container">
           <div
-            class="pt-5 p-3 text container head-container d-flex flex-column justify-content-center align-items-center"
+            class="pt-3 p-3 text container head-container d-flex flex-column justify-content-center align-items-center"
           >
             <h1 class="head-primary text-center">
               MAMA'S KITCHEN ONLINE COOKING SCHOOL
             </h1>
-            <p class="text text-center text-dark mt-5 w-auto">
-              Recent years with the rise of technology and the internet, it has
-              become easier than ever to learn new skills and hobbies from the
-              comfort of your own home. Mama's Kitchen gives a great option for
-              anyone looking to improve their cooking skills or learn something
-              new in the kitchen. We offer flexibility, affordability, and a
-              wide range of options, making us a convenient and accessible way
-              to explore the world of cooking from a professional chef. Giving
-              you Access to an ever-growing library of classes by the world's
-              best chefs.
-            </p>
+            <div
+              class="headline-text border border-5 border-light mt-5 px-2 bg-light w-100 d-flex justify-content-center"
+            >
+              <p class="text text-center text-dark mt-5 w-auto opacity-100">
+                Recent years with the rise of technology and the internet, it
+                has become easier than ever to learn new skills and hobbies from
+                the comfort of your own home. Mama's Kitchen gives a great
+                option for anyone looking to improve their cooking skills or
+                learn something new in the kitchen. We offer flexibility,
+                affordability, and a wide range of options, making us a
+                convenient and accessible way to explore the world of cooking
+                from a professional chef. Giving you Access to an ever-growing
+                library of classes by the world's best chefs.
+              </p>
+            </div>
             <div class="emailUs">
               <p class="text text-center mt-5 w-auto">
                 Please contact us per Email for any further questions about
@@ -177,14 +185,16 @@
           <div
             class="pt-5 p-3 text container head-container d-flex flex-column justify-content-center align-items-center"
           >
-            <h2 class="text-center fs-1">
+            <h2 class="text-center fw-bold fs-1">
               Mama's kitchen Online Cooking School Logo
             </h2>
-            <p class="text text-center text-dark mt-5 w-auto">
+            <p class="text text-center text-secondary mt-5 w-auto">
               The logo of Mama's kitchen was created by the owner of the website
               from logo.com free logo making website.
             </p>
-            <div class="">
+            <div
+              class="border border-1 logo-2023 d-flex justify-content-center p-2 mt-3"
+            >
               <img
                 class="img-fluid logo-about mb-1"
                 src="./assets/imgs/mamas-kitchen.png"
@@ -196,7 +206,9 @@
       </div>
     </section>
     <section class="container-fluid mt-5 pt-5 feed-back">
-      <h2 class="text-center mb-5">What students say about us</h2>
+      <h2 class="text-center text-dark fw-semibold mb-5">
+        What students say about us
+      </h2>
       <div class="container carousel-section row mx-auto">
         <div id="carouselExampleFade" class="carousel slide carousel-fade col">
           <div class="carousel-inner">
