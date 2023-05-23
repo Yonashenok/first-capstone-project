@@ -22,7 +22,7 @@
   <body>
     <nav class="container-fluid navbar nav-Overly bg-light navbar-expand-lg">
       <div class="container navPad">
-        <a class="navbar-brand text text-white" href="./home.html">
+        <a class="navbar-brand text text-white hidden" href="./home.html">
           <img
             class="img-fluid logo"
             src="./assets/imgs/mamas-kitchen.png"
@@ -30,7 +30,7 @@
           />
         </a>
         <div class="mobile-menu">
-          <div class="cross hidden hidden-lg">
+          <div class="cross hidden hidden-lg d-md-none">
             <svg
               width="24"
               height="24"
@@ -43,7 +43,7 @@
               />
             </svg>
           </div>
-          <div class="hemberger hidden-m">
+          <div class="hemberger">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -68,7 +68,7 @@
         >
           <div class="d-none d-sm-block d-md-block d-lg-block">
             <ul class="navbar-nav nav_content">
-              <li class="nav-item me-3">
+              <li class="nav-item me-5">
                 <a
                   class="nav-link fw-semibold text hover-effect"
                   aria-current="page"
@@ -77,25 +77,25 @@
                   Home
                 </a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-5">
                 <a class="nav-link text hover-effect" href="./about.html">
                   About
                 </a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-5">
                 <a class="nav-link text hover-effect scroll" href="#Teachers">
                   Our Teachers
                 </a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-5">
                 <a class="nav-link text hover-effect scroll" href="#Courses">
                   Courses
                 </a>
               </li>
-              <li class="nav-item me-3 ms-2">
+              <li class="nav-item me-5 ms-2">
                 <button
                   type="button"
-                  class="btn navBtn border-danger main-color px-5 fw-bold"
+                  class="navBtn main-color px-5 py-3 fw-bold"
                 >
                   Join us
                 </button>
@@ -105,7 +105,7 @@
         </div>
       </div>
     </nav>
-    <div class="nav-menu hidden hidden-m hidden-lg pt-5 bg-light">
+    <div class="nav-menu hidden hidden-m d-md-none hidden-lg pt-5 bg-light">
       <ul class="navbar-nav nav_content">
         <li class="nav-item me-3">
           <a
@@ -156,23 +156,28 @@
       <div class="container text-center mt-lg-5">
         <div class="col_size">
           <div class="pt-5 p-3 text container-fluid head-container">
-            <h1 class="head-primary">
+            <p class="main-color motivation-text fs-3 w-100">
+              "Great cooks never stop learning"
+            </p>
+            <h1 class="head-primary px-2">
               MAMA'S KITCHEN
               <br />
               ONLINE COOKING SCHOOL
             </h1>
-            <p class="text mt-5 w-auto">
-              Bring the most delicious food to your home. Mama's Kitchen gives
-              an incredible opportunity to learn various cooking techniques or
-              regional cooking styles from a professional chef. Give you Access
-              to an ever-growing library of classes by the world's best chefs.
+            <div class="headline-text border border-5 border-light mt-5 px-2">
+              <p class="text w-auto">
+                Bring the most delicious food to your home. Mama's Kitchen gives
+                an incredible opportunity to learn various cooking techniques or
+                regional cooking styles from a professional chef. Give you
+                Access to an ever-growing library of classes by the world's best
+                chefs.
+              </p>
+            </div>
+            <p class="w-100 mt-5 date-time fs-2 px-2">
+              From 2023.23.5
+              <br />
+              @ Online Any Where
             </p>
-            <button
-              type="button"
-              class="btn mt-5 bg-main navBtn px-5 text-light fw-bold"
-            >
-              Join us
-            </button>
           </div>
         </div>
       </div>
@@ -180,13 +185,18 @@
     <!--Todo main section section -->
     <section
       id="Courses"
-      class="container-fluid pt-lg-5 main-section d-flex justify-content-center align-items-center"
+      class="container-fluid main-section py-2 d-flex justify-content-center align-items-center"
     >
       <div
         class="container-fluid d-flex flex-column justify-content-center align-items-center mx-5 p-2"
       >
-        <div>
-          <h2 class="text-center text-light w-100 mb-3">Courses</h2>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center text-light w-100">Courses</h2>
+          <div
+            class="footer-line border-bottom border-5 mb-5 border-danger"
+          ></div>
         </div>
         <div class="card-group">
           <div
@@ -213,7 +223,14 @@
       <div
         class="container-fluid d-flex flex-column justify-content-center align-items-center mx-5 py-4"
       >
-        <h2 class="text-center w-100 mb-3">Our Teachers</h2>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center w-100">Our Teachers</h2>
+          <div
+            class="footer-line border-bottom border-5 border-danger mb-5"
+          ></div>
+        </div>
 
         <div class="card-group">
           <div
