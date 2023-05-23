@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-[loom video](https://www.loom.com/share/936996906abd425b8c339fd40f89eb31)
+[loom video]()
 
 # 📖 [Mama's Kitchen] <a name="about-project"></a>
 
@@ -87,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 
 >
 
-- [Live Demo]()
+- [Live Demo](https://yonashenok.github.io/first-capstone-project/)
 
 <!-- GETTING STARTED -->
 
