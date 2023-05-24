@@ -84,8 +84,8 @@ const renderFeature = () => {
   teacherData.forEach((item, i) => {
     const html = `
           <div class="card shadow ${
-            i > 1 ? 'hidden' : ''
-          }   mb-2 ourTechers  pb-2">
+  i > 1 ? 'hidden' : ''
+}   mb-2 ourTechers  pb-2">
                       <div class="d-flex flex-row g-0">
                         <div
                           class="col-md-4 col-sm-2 image-cont p-md-2  border-danger"
@@ -99,8 +99,8 @@ const renderFeature = () => {
                         <div class="col-md-8 g-0">
                           <div class="card-body">
                             <h5 class="card-title box-card text-start">${
-                              item.teacherName
-                            }</h5>
+  item.teacherName
+}</h5>
                             <p class="fst-italic text-start  main-color">
                             ${item.title}
                             </p>
