@@ -202,7 +202,7 @@ If you like this project please contact my with yonashenok24@gmail.com or [Linke
 
 >
 
-I would like to thank...me
+I would like to thank Cindy Shin Original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <!-- FAQ (optional) -->
 
