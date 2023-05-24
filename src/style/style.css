@@ -533,12 +533,16 @@ body {
   }
 
   .main-section {
-    height: 90vh;
+    height: 100vh;
   }
 
   .main-card {
-    width: 16rem;
-    height: 18rem;
+    width: 15rem;
+    height: 14rem;
+  }
+
+  .main-card:hover {
+    border: 4px solid #d3d3d3;
   }
 
   .image-cont {
