@@ -39,16 +39,19 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+  - [🛠 Built With](#builtWith)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [`🚀 Live Demo`](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -62,13 +65,13 @@ After you're finished please remove all the comments and instructions!
 
 >
 
-**[Mama's Kitchen]** website to showcase what I have been on as frontend developer. i hope you will find my project interesting so 😃
+**[Mama's Kitchen]** website is my first microverse capstone project on HTML/CSS AND Javascript module. I hope you will find my project interesting so 😃
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="builtWith"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> I use HTML/CSS AND JavaScript .
+> I use HTML/CSS AND JavaScript and Bootstrap.
 
 <!-- Features -->
 
@@ -163,9 +166,22 @@ You can deploy this project using:
 👤 **Author1**
 
 - GitHub: [@Yonashenok](https://github.com/yonashenok)
-- Twitter: [@yonashenok](https://twitter.com/twitterhandle)
+- Twitter: [@yonashenok](https://twitter.com/YonasHenok3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217)
 
+>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- **[home]**
+- **[about]**
+- **[feature speaker]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
