@@ -1,11 +1,5 @@
 const courseData = [
   {
-    img: './assets/imgs/online-video.png',
-    title: 'Videos',
-    detailed:
-      'our program gives you  cooking  with flexibility. Unlike traditional cooking classes,',
-  },
-  {
     img: './assets/imgs/dish.png',
     title: ' Recipe Type',
     detailed:
@@ -38,35 +32,35 @@ const courseData = [
 ];
 const teacherData = [
   {
-    img: './assets/imgs/chef33.png',
+    img: './assets/imgs/chef-image.png',
     teacherName: 'Erez Komaro',
     title: 'Teachers his israel cuisine',
     description:
       'Join Erez on a culinary journey to Israel and explore Middle Eastern foods and flavors.',
   },
   {
-    img: './assets/imgs/chef1.png',
+    img: './assets/imgs/chef-image-2.png',
     teacherName: 'Miya Kianu',
     title: ' Teachers her American cuisine',
     description:
       'Join Miya on a culinary journey to American and explore foods flavor.',
   },
   {
-    img: './assets/imgs/chef4.png"',
+    img: './assets/imgs/chef-image-3.png"',
     teacherName: 'Francis Dario',
     title: 'Teachers his Argentine cuisine',
     description:
       'Join Francis on a culinary journey to explore his Argentine cuisine and open-fire cooking.',
   },
   {
-    img: './assets/imgs/chef6.png',
+    img: './assets/imgs/chef-image-4.png',
     teacherName: 'Vikry Khan',
     title: 'Teachers his India cuisine',
     description:
       'Join Vikry on a culinary journey to Kolkata, India andexplore her favorite Indian dishes and Bengali flavors.',
   },
   {
-    img: './assets/imgs/chef5.png"',
+    img: './assets/imgs/chef-image-5.png"',
     teacherName: 'Kwame Morsi',
     title: ' Teachers his jamaican cuisine',
     description:
@@ -74,11 +68,11 @@ const teacherData = [
   },
 
   {
-    img: './assets/imgs/chef2.png',
+    img: './assets/imgs/chef-image-6.png',
     teacherName: 'Nancy Robert',
     title: 'Teachers her California cuisine',
     description:
-      'Join Nancy on a culinary journey to explore her simple, seasonal, and delicious Californian-Italian cooking style.',
+      'Join Nancy on a culinary journey and, seasonal, and delicious Californian-Italian cooking style.',
   },
 ];
 
@@ -89,7 +83,9 @@ const courses = document.querySelector('.courses');
 const renderFeature = () => {
   teacherData.forEach((item, i) => {
     const html = `
-          <div class="card shadow ${i > 1 ? 'hidden' : ''}   mb-2 ourTechers ">
+          <div class="card shadow ${
+            i > 1 ? 'hidden' : ''
+          }   mb-2 ourTechers  pb-2">
                       <div class="d-flex flex-row g-0">
                         <div
                           class="col-md-4 col-sm-2 image-cont p-md-2  border-danger"
@@ -102,11 +98,14 @@ const renderFeature = () => {
                         </div>
                         <div class="col-md-8 g-0">
                           <div class="card-body">
-                            <h5 class="card-title">${item.teacherName}</h5>
-                            <p class="my-1  main-color">
+                            <h5 class="card-title box-card text-start">${
+                              item.teacherName
+                            }</h5>
+                            <p class="fst-italic text-start  main-color">
                             ${item.title}
                             </p>
-                            <p class="card-text">
+                            <div class="card-line border-bottom border-3 mb-2"></div>
+                            <p class="card-text ph-card">
                             ${item.description}
                             </p>
                           </div>
@@ -130,19 +129,19 @@ renderFeature();
 const renderCourse = () => {
   courseData.forEach((item) => {
     const html = `
-      <div class="card main-card p-lg-2">
+      <div class="card main-card p-lg-2 p-2">
       <div class="d-flex flex-lg-column flex-md-row flex-sm-row">
         <div
           class="icon-box d-flex justify-content-center align-items-center"
         >
           <img src="${item.img}" alt="" />
         </div>
-        <div
-          class="d-flex flex-column justify-content-center align-items-center w-100 h-75 p-2"
-        >
-          <h5 class="card-title main-color fs-5 mb-lg-3 text-center head-secondary">
-           ${item.title}
-          </h5>
+        <div class="">
+        <h5 class="card-title main-color  mb-lg-3 text-center head-secondary">
+        ${item.title}
+       </h5>
+       </div>
+     
           <div class="textBox">
             <p
               class="card-text text-light text-sm-start text-lg-center"
@@ -150,7 +149,6 @@ const renderCourse = () => {
            ${item.detailed}
             </p>
           </div>
-        </div>
       </div>
     </div>
             `;

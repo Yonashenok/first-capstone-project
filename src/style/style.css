@@ -2,8 +2,43 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.nav-img {
+  width: 16px;
+  height: 14px;
+}
+
+.small-nav {
+  height: 40px;
+  background: #3e3e3e;
+}
+
+.small-nav a {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.box-card {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.ph-card {
+  color: #000;
+}
+
 .main-color {
   color: #ec5242;
+}
+
+.card-line {
+  width: 25px;
+  border-color: #595959;
 }
 
 .teacher-section {
@@ -34,10 +69,6 @@ body {
   color: #d70202;
 }
 
-.feed-back {
-  background-color: #c0bbbb;
-}
-
 .carousel-about {
   width: 400px;
   height: 300px;
@@ -59,7 +90,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14.2712px;
   line-height: 25px;
 }
 
@@ -83,8 +113,7 @@ body {
 
 .headline-about {
   height: 100vh;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       360deg,
       rgba(252, 252, 252, 0.8) 0%,
       rgba(203, 203, 207, 0.8) 100%
@@ -101,8 +130,7 @@ body {
 
 .headline {
   height: 100vh;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       360deg,
       rgba(240, 233, 233, 0.3) 100%,
       rgba(71, 71, 75, 0.3) 0%
@@ -160,7 +188,11 @@ body {
 }
 
 .last-section {
-  height: 40vh;
+  height: 20vh;
+}
+
+.footer-text {
+  font-size: 13px;
 }
 
 .footer-line {
@@ -170,8 +202,22 @@ body {
 /* Styles for mobile devices */
 
 @media only screen and (max-width: 767px) {
+  .head-secondary {
+    font-size: 12px;
+    width: 60px;
+  }
+
+  .last-section {
+    background-color: #fff;
+    color: #3b3e45;
+  }
+
   .headline-text {
     width: 100%;
+  }
+
+  .partners {
+    width: 55%;
   }
 
   .motivation-text {
@@ -216,8 +262,8 @@ body {
   }
 
   .head-primary {
-    width: 290px;
-    font-size: 30px;
+    width: 340px;
+    font-size: 26px;
   }
 
   .main-card {
@@ -244,7 +290,7 @@ body {
 
   .ourTechers {
     width: 350px;
-    height: 130px;
+    height: 150px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -263,8 +309,9 @@ body {
   }
 
   .image-cont {
-    width: 115px;
-    height: 126px;
+    padding: 12px 6px;
+    width: 170px;
+    height: 120px;
   }
 
   .img-fluid {
@@ -291,14 +338,38 @@ body {
   }
 
   .logo-footer {
-    width: 140px;
+    width: 340px;
     height: 90px;
+  }
+
+  .testimony-overly {
+    background-image: linear-gradient(45deg, #ec5242, #ec5242);
+    width: 334px;
+    height: 183.31px;
+  }
+
+  .testimony {
+    width: 334px;
+    height: 183.31px;
+  }
+
+  .footer-text {
+    font-size: 13px;
   }
 }
 
 /* Styles for tablet devices */
 
 @media only screen and (min-width: 768px) {
+  .last-section {
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+
+  .partners {
+    width: 55%;
+  }
+
   .headline-text {
     width: 60%;
   }
@@ -352,7 +423,7 @@ body {
 
   .head-primary {
     width: 700px;
-    font-size: 62px;
+    font-size: 50px;
   }
 
   .main-card {
@@ -379,7 +450,7 @@ body {
   }
 
   .footer-section {
-    height: 30vh;
+    height: 25vh;
   }
 
   .carousel-section {
@@ -410,6 +481,28 @@ body {
     width: 180px;
     height: 110px;
   }
+
+  .testimony-overly {
+    background-image: linear-gradient(45deg, #ec5242, #ec5242);
+    width: 432px;
+    height: 236px;
+  }
+
+  .testimony {
+    width: 432px;
+    height: 236px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .main-section {
+    height: 100vh;
+  }
 }
 
 /* Styles for desktop devices */
@@ -417,6 +510,10 @@ body {
 @media only screen and (min-width: 1024px) {
   .hidden-lg {
     display: none;
+  }
+
+  .partners {
+    width: 55%;
   }
 
   .head-container p {
@@ -431,7 +528,8 @@ body {
 
   .head-primary {
     width: 700px;
-    font-size: 72px;
+    font-size: 55px;
+    font-weight: 900;
   }
 
   .main-section {
