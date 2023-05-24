@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style/style.css" />
+    <script defer src="./src/js/App.js"></script>
+    <script defer src="./src/js/home.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-expand-lg small-nav d-none d-sm-block d-md-block d-lg-block">
+        <div class="container">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item me-2">
+                <a class="nav-link text-light active" aria-current="page" href="#"><img class="img-fluid nav-img" src="./assets/imgs/Rectangle.png" alt=""></a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link text-light active" aria-current="page" href="#"><img class="img-fluid nav-img" src="./assets/imgs/twitter.png" alt=""></a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link text-light" href="#">English</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link text-light" href="#">My Page</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link text-light">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <nav class="container-fluid navbar nav-Overly bg-light navbar-expand-lg">
+      <div class="container navPad">
+        <a class="navbar-brand text text-white hidden" href="./index.html">
+          <img
+            class="img-fluid logo"
+            src="./assets/imgs/mamas-kitchen.png"
+            alt=" mamas-kitchen logo "
+          />
+        </a>
+        <div class="mobile-menu">
+          <div class="cross hidden hidden-lg d-md-none">
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"
+              />
+            </svg>
+          </div>
+          <div class="hemberger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              height="24px"
+              weight="24px"
+              stroke-width="1.5"
+              stroke="#000"
+              class="w-6 h-6 d-block d-lg-none"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <div class="d-none d-sm-block d-md-block d-lg-block">
+            <ul class="navbar-nav nav_content">
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link  text hover-effect"
+                  aria-current="page"
+                  href="./index.html"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text hover-effect" href="./src/about.html">
+                  About
+                </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text hover-effect scroll" href="#Teachers">
+                  Our Teachers
+                </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text hover-effect scroll" href="#Courses">
+                  Courses
+                </a>
+              </li>
+              <li class="nav-item me-5 ms-2">
+                <button
+                  type="button"
+                  class="navBtn main-color px-5 py-3 fw-bold"
+                >
+                  Join us
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-menu hidden hidden-m d-md-none hidden-lg pt-5 bg-light">
+      <ul class="navbar-nav nav_content">
+        <li class="nav-item me-3">
+          <a
+            class="nav-link fw-semibold fs-1 text hover-effect"
+            aria-current="page"
+            href="./home.html"
+          >
+            Home
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3">
+          <a
+            class="nav-link text fs-2 mb-1 hover-effect"
+            href="./src/about.html"
+          >
+            About
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3">
+          <a
+            class="nav-link text fs-2 mb-1 hover-effect scroll"
+            href="#Teachers"
+          >
+            Our Teachers
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3">
+          <a
+            class="nav-link text fs-2 mb-1 hover-effect scroll"
+            href="#Courses"
+          >
+            Courses
+          </a>
+          <div class="border-bottom border-1 mb-3 border-danger"></div>
+        </li>
+        <li class="nav-item me-3 mt-5 ms-2">
+          <button
+            type="button"
+            class="btn main-color navBtn border-danger px-5 fw-bold"
+          >
+            Join us
+          </button>
+        </li>
+      </ul>
+    </div>
+    <!--Todo headline section -->
+    <section class="container-fluid mt-1 pt-3 headline">
+      <div class="container text-center mt-lg-5">
+        <div class="col_size">
+          <div class="pt-5 p-3 text container-fluid head-container">
+            <p class="main-color motivation-text fs-3 w-100">
+              "Great cooks never stop learning"
+            </p>
+            <h1 class="head-primary px-2">
+              MAMA'S KITCHEN
+              <br />
+              ONLINE COOKING SCHOOL
+            </h1>
+            <div class="headline-text border border-5 border-light mt-3 px-2">
+              <p class="text w-auto">
+                Bring the most delicious food to your home. Mama's Kitchen gives
+                an incredible opportunity to learn various cooking techniques or
+                regional cooking styles from a professional chef. Give you
+                Access to an ever-growing library of classes by the world's best
+                chefs.
+              </p>
+            </div>
+            <p class="w-100 d-flex flex-column gap-2 mt-2 date-time fs-2 px-2">
+              <span>From 2023.23.5</span> 
+             <span>@ Online Any Where</span> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Todo main section section -->
+    <section
+      id="Courses"
+      class="container-fluid main-section py-2 d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="container-fluid d-flex flex-column justify-content-center align-items-center mx-5 p-2"
+      >
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center text-light w-100">Courses</h2>
+          <div
+            class="footer-line border-bottom border-5 mb-5 border-danger"
+          ></div>
+        </div>
+        <div class="card-group">
+          <div
+            class="row row-cols-xl-auto row-cols-lg-1 row-cols-md-3 row-cols-sm-1 row-cols-1 justify-content-center courses"
+          >
+
+          
+            <div
+              class="d-flex mt-2 justify-content-center align-items-center d-lg-none d-md-none"
+            >
+              <button
+                type="button"
+                class="btn bg-main navBtn px-5 text-light fw-semibold"
+              >
+                Join us
+              </button>
+            </div>
+           
+          </div> 
+        </div>
+        <div class="d-lg-block d-md-block d-none mt-lg-5 mt-md-1  pt-5">
+          <a class="text-capitalize text-center text-light fs-3 lh-lg" href="#">SEE MORE COURSES</a>
+        </div>
+      </div>
+    </section>
+    <section
+      id="Teachers"
+      class="container-fluid teacher-section pt-5 d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="container-fluid d-flex flex-column justify-content-center align-items-center mx-5 py-4"
+      >
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center w-100">Our Teachers</h2>
+          <div
+            class="footer-line border-bottom border-5 border-danger mb-5"
+          ></div>
+        </div>
+
+        <div class="card-group">
+          <div
+            class="row row-cols-xl-auto row-cols-lg-2 row-cols-md-3 row-cols-sm-1 row-cols-1 justify-content-center feature-page"
+          >
+            <div
+              class="d-flex mt-2 justify-content-center align-items-center d-lg-none d-md-none"
+            >
+              <button
+                type="button"
+                class="btn btn-light btn-outline-secondary px-5 showMore"
+              >
+                More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="#FF4F38"
+                >
+                  <path
+                    d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid footer-section bg-dark d-none d-sm-block d-md-block d-lg-block">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <h2 class="text-center text-light pt-3">Partners</h2>
+        <div class="footer-line border-bottom border-5 border-danger"></div>
+      </div>
+      <div
+        class="container mt-lg-5 pt-lg-4 mt-md-4 pt-sm-3 mt-md-4 mt-3 pt-3 pt-sm-3 ps-5 d-flex justify-content-center align-items-center gap-lg-5 gap-md-3 gap-sm-2"
+      >
+        <div class="">
+          <img
+            class="img-fluid partners"
+            src="./assets/imgs/mcdonalds.png"
+            alt=""
+          />
+        </div>
+        <div class="">
+          <img
+            class="img-fluid partners"
+            src="./assets/imgs/fries.png"
+            alt=""
+          />
+        </div>
+        <div class="">
+          <img
+            class="img-fluid partners"
+            src="./assets/imgs/nestle.png"
+            alt=""
+          />
+        </div>
+        <div class="">
+          <img
+            class="img-fluid partners"
+            src="./assets/imgs/unilever.png"
+            alt=""
+          />
+        </div>
+        <div class="">
+          <img
+            class="img-fluid partners"
+            src="./assets/imgs/cracker.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid last-section d-none d-sm-block d-md-block d-lg-block bg-light text-dark pt-5">
+      <div
+        class="container d-flex flex-row justify-content-center align-items-center gap-5"
+      >
+          <div class="logo-footer  pe-3">
+            <img
+              class="img-fluid"
+              src="./assets/imgs/mamas-kitchen.png"
+              alt=""
+            />
+          </div>
+        <div><p class="footer-text">2023 Mamas kitchen. Learn from the World’s Best Chefs. Some Right Reserve.</p></div>
+    </footer>
+  </body>
+</html>

@@ -4,7 +4,8 @@
   "description": "\"# first-capstone-project\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " index.html"
   },
   "keywords": [],
   "author": "Yonas Henok",
@@ -19,5 +20,8 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }

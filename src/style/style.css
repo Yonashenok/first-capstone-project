@@ -1,0 +1,569 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-img {
+  width: 16px;
+  height: 14px;
+}
+
+.small-nav {
+  height: 40px;
+  background: #3e3e3e;
+}
+
+.small-nav a {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.box-card {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.ph-card {
+  color: #000;
+}
+
+.main-color {
+  color: #ec5242;
+}
+
+.card-line {
+  width: 25px;
+  border-color: #595959;
+}
+
+.teacher-section {
+  background-color: #f8f8f8;
+}
+
+.date-time {
+  color: #595959;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.navBtn {
+  border: 4px solid #ec4327;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.bg-main {
+  background-color: #ff4f38;
+}
+
+.hover-effect:hover {
+  color: #d70202;
+}
+
+.carousel-about {
+  width: 400px;
+  height: 300px;
+}
+
+.icon-box {
+  height: 85px;
+}
+
+.main-section {
+  background-color: #282b32;
+}
+
+.main-card {
+  background-color: #3b3e45;
+}
+
+.head-secondary {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.logo {
+  width: 107px;
+  height: 60px;
+}
+
+.nav_content {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}
+
+.head-container {
+  text-align: left;
+}
+
+.headline-about {
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      360deg,
+      rgba(252, 252, 252, 0.8) 0%,
+      rgba(203, 203, 207, 0.8) 100%
+    ),
+    url('../../assets/imgs/brooke-lark-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.emailUs {
+  color: #7a7a7a;
+}
+
+.headline {
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      360deg,
+      rgba(240, 233, 233, 0.3) 100%,
+      rgba(71, 71, 75, 0.3) 0%
+    ),
+    url('../../assets/imgs/brooke-lark-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.head-primary {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  background-image: url('../../assets/imgs/h1image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-Overly {
+  z-index: 4;
+}
+
+.mainProgram {
+  height: 80vh;
+}
+
+.col_size {
+  width: 100%;
+  height: 100%;
+}
+
+.mainCol {
+  height: 10rem;
+}
+
+.navPad {
+  height: 4rem;
+}
+
+.card-title {
+  margin: 0 1rem;
+}
+
+.about-section {
+  height: 100vh;
+}
+
+.about-bottom {
+  height: 100vh;
+}
+
+.last-section {
+  height: 25vh;
+}
+
+.footer-text {
+  font-size: 13px;
+}
+
+.footer-line {
+  width: 50px;
+}
+
+/* Styles for mobile devices */
+
+@media only screen and (max-width: 767px) {
+  .head-secondary {
+    font-size: 12px;
+    width: 60px;
+  }
+
+  .last-section {
+    background-color: #fff;
+    color: #3b3e45;
+  }
+
+  .headline-text {
+    width: 100%;
+  }
+
+  .partners {
+    width: 55%;
+  }
+
+  .motivation-text {
+    font-size: 18px;
+  }
+
+  .nav-menu {
+    font-size: 18px;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 9.5%;
+    left: 0;
+    z-index: 2;
+  }
+
+  .logo-2023 {
+    width: 100%;
+  }
+
+  .cross {
+    position: absolute;
+    top: 30px;
+    left: 11px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .head-container p {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .head-primary {
+    width: 340px;
+    font-size: 26px;
+  }
+
+  .main-card {
+    width: 355px;
+    height: 95px;
+    margin-bottom: 12px;
+    font-size: var(--font-5);
+  }
+
+  .textBox {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    height: 82.059326171875px;
+    width: 191.76907348632812px;
+  }
+
+  .img-chef {
+    width: 300px;
+    height: 68px;
+  }
+
+  .ourTechers {
+    width: 350px;
+    height: 150px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    background-color: #f8f8f8;
+  }
+
+  .width_foo {
+    width: 100%;
+  }
+
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-cont {
+    padding: 12px 6px;
+    width: 170px;
+    height: 120px;
+  }
+
+  .img-fluid {
+    height: 100%;
+  }
+
+  .footer-section {
+    height: 20vh;
+  }
+
+  .carousel-txt {
+    font-size: 14.5px;
+    padding: 0.5rem 2rem;
+  }
+
+  .carousel-img {
+    width: 250px;
+    height: 50px;
+  }
+
+  .logo-about {
+    width: 180px;
+    height: 110px;
+  }
+
+  .logo-footer {
+    width: 340px;
+    height: 90px;
+  }
+
+  .testimony-overly {
+    background-image: linear-gradient(45deg, #ec5242, #ec5242);
+    width: 334px;
+    height: 183.31px;
+  }
+
+  .testimony {
+    width: 334px;
+    height: 183.31px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+  }
+}
+
+/* Styles for tablet devices */
+
+@media only screen and (min-width: 768px) {
+  .last-section {
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+
+  .partners {
+    width: 55%;
+  }
+
+  .headline-text {
+    width: 60%;
+  }
+
+  .motivation-text {
+    font-size: 32px;
+  }
+
+  .logo-2023 {
+    width: 70%;
+  }
+
+  .cross {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  .hemberger {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  .hidden-m {
+    display: none;
+  }
+
+  .nav-menu {
+    font-size: 18px;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 2;
+  }
+
+  .head-container p {
+    width: 75%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .head-primary {
+    width: 700px;
+    font-size: 50px;
+  }
+
+  .main-card {
+    padding: 5px;
+    width: 350px;
+    margin: 0.3rem;
+  }
+
+  .ourTechers {
+    width: 500px;
+    height: 185px;
+    margin-right: 1rem;
+    background-color: #f8f8f8;
+  }
+
+  .image-cont {
+    width: 150px;
+    height: 180px;
+  }
+
+  .img-chef {
+    height: 100%;
+    width: 80%;
+  }
+
+  .footer-section {
+    height: 25vh;
+  }
+
+  .carousel-section {
+    width: 900px;
+  }
+
+  .carousel-text {
+    padding: 1rem 8rem;
+  }
+
+  .carousel-img {
+    width: 300px;
+    height: 90px;
+    font-size: 18px;
+  }
+
+  .carousel-img-cont {
+    width: 120px;
+    height: 80px;
+  }
+
+  .logo-about {
+    width: 300px;
+    height: 220px;
+  }
+
+  .logo-footer {
+    width: 180px;
+    height: 110px;
+  }
+
+  .testimony-overly {
+    background-image: linear-gradient(45deg, #ec5242, #ec5242);
+    width: 432px;
+    height: 236px;
+  }
+
+  .testimony {
+    width: 432px;
+    height: 236px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .main-section {
+    height: 100vh;
+  }
+}
+
+/* Styles for desktop devices */
+
+@media only screen and (min-width: 1024px) {
+  .hidden-lg {
+    display: none;
+  }
+
+  .partners {
+    width: 55%;
+  }
+
+  .head-container p {
+    max-width: 800px;
+    width: 30%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.4902px;
+    line-height: 36px;
+  }
+
+  .head-primary {
+    width: 700px;
+    font-size: 55px;
+    font-weight: 900;
+  }
+
+  .main-section {
+    height: 100vh;
+  }
+
+  .main-card {
+    width: 200px;
+    height: 260px;
+  }
+
+  .main-card:hover {
+    border: 4px solid #d3d3d3;
+  }
+
+  .image-cont {
+    width: 160px;
+    height: 180px;
+  }
+
+  .img-chef {
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer-section {
+    height: 30vh;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .teacher-section {
+    height: 100vh;
+  }
+}
