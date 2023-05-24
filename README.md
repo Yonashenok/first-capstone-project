@@ -71,13 +71,18 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> I use HTML/CSS AND JavaScript and Bootstrap.
+>
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+>
 
 - **[home]**
 - **[about]**
